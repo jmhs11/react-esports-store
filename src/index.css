@@ -22,28 +22,31 @@
 @tailwind utilities;
 
 html {
-	margin-left: calc(100vw - 100%);
+	/* margin-left: calc(100vw - 100%); */
 }
 
-header{
+header {
 	grid-area: header;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 }
 
-aside{
+aside {
 	grid-area: aside;
 }
 
-main {	
+main {
 	grid-area: main;
 }
 
 #layout {
 	display: grid;
-	grid-template-areas: "aside header" 
-											 "aside main"
-											 "aside main";
+	grid-template-areas:
+		'aside header'
+		'aside main'
+		'aside main';
 	grid-template-rows: 10% 1fr;
-	grid-template-columns: 25% 1fr;
+	grid-template-columns: 20% 1fr;
 }
 
 @supports (-webkit-touch-callout: none) {

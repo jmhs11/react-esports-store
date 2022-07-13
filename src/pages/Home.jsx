@@ -1,7 +1,74 @@
 const Home = () => {
-  return (
-    <div>home</div>
-  )
-}
+	return (
+		<div className='p-4 overflow-hidden bg-yellow-200'>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+			<p>home</p>
+		</div>
+	);
+};
 
-export default Home
+export default Home;
