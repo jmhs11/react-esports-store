@@ -4,12 +4,15 @@
 	h1 {
 		@apply text-3xl;
 	}
+
 	h2 {
 		@apply text-xl;
 	}
+
 	h3 {
 		@apply text-lg;
 	}
+
 	p {
 		@apply max-w-prose;
 	}
@@ -20,6 +23,27 @@
 
 html {
 	margin-left: calc(100vw - 100%);
+}
+
+header{
+	grid-area: header;
+}
+
+aside{
+	grid-area: aside;
+}
+
+main {	
+	grid-area: main;
+}
+
+#layout {
+	display: grid;
+	grid-template-areas: "aside header" 
+											 "aside main"
+											 "aside main";
+	grid-template-rows: 10% 1fr;
+	grid-template-columns: 25% 1fr;
 }
 
 @supports (-webkit-touch-callout: none) {
