@@ -21,6 +21,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+	.icon {
+		@apply w-10 h-10 p-2 text-white;
+	}
+	.icon-rounded {
+		@apply w-10 h-10 p-2 text-white border-2 rounded;
+	}
+}
+
 html {
 	/* margin-left: calc(100vw - 100%); */
 }
