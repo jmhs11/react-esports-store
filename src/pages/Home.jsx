@@ -1,6 +1,6 @@
 const Home = () => {
 	return (
-		<div className='p-4 overflow-hidden bg-yellow-200'>
+		<div className='p-8 overflow-hidden'>
 			<p>home</p>
 			<p>home</p>
 			<p>home</p>

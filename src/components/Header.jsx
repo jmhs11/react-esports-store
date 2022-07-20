@@ -9,7 +9,7 @@ import {
 
 const Header = () => {
 	return (
-		<header className='fixed left-[20%] h-[10%] w-full bg-blue-500'>
+		<header className='fixed left-[20%] h-[10%] w-full border-b-2 border-[#1b1f2d] dark:bg-[#030616]'>
 			<div className='flex items-center justify-between px-4'>
 				<div className='flex items-center gap-2'>
 					<div className='flex items-center h-full gap-1 w-fit'>
@@ -23,7 +23,7 @@ const Header = () => {
 							name='search'
 							id='search'
 							placeholder='Search name or type games, players...'
-							className='p-2 border-0 rounded w-96'
+							className='p-2 bg-transparent border-0 rounded w-96'
 						/>
 					</div>
 				</div>
@@ -38,8 +38,8 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className='flex items-center px-4 border-l'>
-				<div className='grid w-10 h-10 text-white bg-red-500 rounded-full aspect-square place-content-center'>
+			<div className='flex items-center border-l-2 border-[#1b1f2d] px-4'>
+				<div className='grid w-10 h-10 text-white bg-blue-500 rounded-full aspect-square place-content-center'>
 					JH
 				</div>
 				<div className='flex flex-col'>
