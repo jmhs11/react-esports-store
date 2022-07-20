@@ -50,12 +50,26 @@ main {
 
 #layout {
 	display: grid;
+}
+
+#layout {
+	display: grid;
 	grid-template-areas:
-		'aside header'
-		'aside main'
-		'aside main';
-	grid-template-rows: 5rem 1fr;
-	grid-template-columns: 20% 1fr;
+		'header'
+		'main';
+	grid-template-rows: 4rem;
+	grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+	#layout {
+		grid-template-areas:
+			'aside header'
+			'aside main'
+			'aside main';
+		grid-template-rows: 5rem 1fr;
+		grid-template-columns: 20% 1fr;
+	}
 }
 
 @supports (-webkit-touch-callout: none) {
