@@ -54,7 +54,7 @@ main {
 		'aside header'
 		'aside main'
 		'aside main';
-	grid-template-rows: 10% 1fr;
+	grid-template-rows: 5rem 1fr;
 	grid-template-columns: 20% 1fr;
 }
 

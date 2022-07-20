@@ -14,7 +14,7 @@ import {
 const Aside = () => {
 	return (
 		<aside className='fixed h-screen w-[20%] border-r-2 border-[#1b1f2d] px-4'>
-			<div className='flex items-center justify-center h-16 gap-2'>
+			<div className='flex items-center justify-center h-20 gap-2'>
 				<LogoIcon className='w-16 h-16 text-blue-500' />
 				<div className='flex flex-col leading-none'>
 					<span>ESPORTS PLATFORM</span>
@@ -43,7 +43,7 @@ const Aside = () => {
 				</ul>
 			</div>
 			<div>
-				<h3 className='mb-3'>CATEGORIES</h3>
+				<h3 className='my-3'>CATEGORIES</h3>
 				<ul>
 					<li className='grid items-center py-2 -mr-4 border-r-2 border-transparent grid-cols-menu hover:border-white'>
 						<FlagIcon className='icon p-[0!important]' />
