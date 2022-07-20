@@ -4,7 +4,11 @@ module.exports = {
 		container: {
 			center: true
 		},
-		extend: {}
+		extend: {
+			gridTemplateColumns: {
+				menu: '5rem 1fr'
+			}
+		}
 	},
 	plugins: []
 };
